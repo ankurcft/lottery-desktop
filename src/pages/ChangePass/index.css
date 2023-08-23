@@ -1,0 +1,213 @@
+.change-pass-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .change-pass-footer {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 459px;
+    display: flex;
+    position: absolute;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    border-color: #000000;
+    border-style: solid;
+    border-width: 3px;
+    padding-left: var(--dl-space-space-threeunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: space-between;
+    background-color: #87cfea;
+  }
+  .change-pass-header {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    position: absolute;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    border-color: var(--dl-color-gray-black);
+    border-width: 3px;
+    padding-left: var(--dl-space-space-threeunits);
+    border-radius: var(--dl-radius-radius-radius4);
+    padding-right: var(--dl-space-space-threeunits);
+    justify-content: space-between;
+    background-color: #14b8b1;
+    border-bottom-width: 0px;
+    border-top-left-radius: var(--dl-radius-radius-radius8);
+    border-top-right-radius: var(--dl-radius-radius-radius8);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .change-pass-button {
+    top: 8px;
+    color: transparent;
+    right: 14px;
+    width: 40px;
+    height: 39px;
+    display: flex;
+    position: absolute;
+    border-width: 0px;
+    border-radius: var(--dl-radius-radius-radius8);
+    flex-direction: row;
+    background-color: transparent;
+  }
+  .change-pass-image {
+    top: -9px;
+    left: -14px;
+    width: 68px;
+    height: 59px;
+    position: absolute;
+    object-fit: cover;
+  }
+  .change-pass-text1 {
+    top: 9px;
+    left: 344px;
+    position: absolute;
+    font-size: 28px;
+    font-style: normal;
+    font-family: Open Sans;
+    font-weight: 700;
+    
+  }
+  .change-pass-text2 {
+    top: 62px;
+    left: 170px;
+    color: var(--dl-color-gray-black);
+    position: absolute;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Georgia;
+    font-weight: 700;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 9px;
+    padding-right: 150px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+  }
+  .change-pass-text3 {
+    top: 142px;
+    left: 170px;
+    color: var(--dl-color-gray-black);
+    position: absolute;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Georgia;
+    font-weight: 700;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 9px;
+    padding-right: 140px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+  }
+  .change-pass-text4 {
+    top: 222px;
+    left: 171px;
+    color: var(--dl-color-gray-black);
+    position: absolute;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Georgia;
+    font-weight: 700;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 9px;
+    padding-right: 40px;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+  }
+  .change-pass-textinput {
+    top: 222px;
+    left: 496px;
+    width: 353px;
+    height: 50px;
+    position: absolute;
+    border-color: #000000;
+    border-radius: 0px;
+  }
+  .change-pass-textinput1 {
+    top: 142px;
+    left: 498px;
+    width: 353px;
+    height: 50px;
+    position: absolute;
+    border-color: #000000;
+    border-radius: 0px;
+  }
+  .change-pass-textinput2 {
+    top: 61px;
+    left: 498px;
+    width: 353px;
+    height: 50px;
+    position: absolute;
+    border-color: #7bcfe8;
+    border-radius: 0px;
+  }
+  .change-pass-button1 {
+    top: 302px;
+    left: 500px;
+    width: 154px;
+    height: 61px;
+    position: absolute;
+    font-size: 34px;
+    background-color: #ccc718;
+  }
+  .change-pass-text5 {
+    top: 400px;
+    left: 10px;
+    position: absolute;
+    font-size: 34px;
+    letter-spacing: -1px;
+  }
+  .change-pass-button2 {
+    top: 302px;
+    left: 685px;
+    width: 153px;
+    height: 60px;
+    position: absolute;
+    font-size: 34px;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    border-radius: 0px;
+    background-image: linear-gradient(0deg, rgb(192, 36, 37) 0%, rgb(238, 179, 137) 66%);
+  }
+  @media(max-width: 767px) {
+    .change-pass-footer {
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+    .change-pass-header {
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+  }
+  @media(max-width: 479px) {
+    .change-pass-footer {
+      padding: var(--dl-space-space-unit);
+    }
+    .change-pass-header {
+      padding: var(--dl-space-space-unit);
+    }
+  }
+  

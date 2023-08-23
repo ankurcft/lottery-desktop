@@ -1,0 +1,92 @@
+.reprint-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .reprint-footer {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 459px;
+    display: flex;
+    position: absolute;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    border-color: #000000;
+    border-style: solid;
+    border-width: 3px;
+    padding-left: var(--dl-space-space-threeunits);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+    justify-content: space-between;
+  }
+  .reprint-header {
+    width: 100%;
+    height: 53px;
+    display: flex;
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-threeunits);
+    border-radius: var(--dl-radius-radius-radius4);
+    padding-right: var(--dl-space-space-threeunits);
+    justify-content: space-between;
+    background-color: #14b8b1;
+    border-top-left-radius: var(--dl-radius-radius-radius8);
+    border-top-right-radius: var(--dl-radius-radius-radius8);
+  }
+  .reprint-text {
+    top: 9px;
+    left: 427px;
+    position: absolute;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .reprint-button {
+    top: 8px;
+    color: transparent;
+    right: 14px;
+    width: 40px;
+    height: 39px;
+    display: flex;
+    position: absolute;
+    border-width: 0px;
+    border-radius: var(--dl-radius-radius-radius8);
+    flex-direction: row;
+    background-color: transparent;
+  }
+  .reprint-image {
+    top: -9px;
+    left: -14px;
+    width: 68px;
+    height: 59px;
+    position: absolute;
+    object-fit: cover;
+  }
+  @media(max-width: 767px) {
+    .reprint-footer {
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+    .reprint-header {
+      padding-left: var(--dl-space-space-twounits);
+      padding-right: var(--dl-space-space-twounits);
+    }
+  }
+  @media(max-width: 479px) {
+    .reprint-footer {
+      padding: var(--dl-space-space-unit);
+    }
+    .reprint-header {
+      padding: var(--dl-space-space-unit);
+    }
+  }
+  

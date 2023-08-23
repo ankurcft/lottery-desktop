@@ -1,0 +1,26 @@
+receipt {
+          
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.sig {
+      position: relative;
+      top: 1%;
+      left: -2%;
+}
+.circle{
+      border-radius: 50%;
+      border-style: solid;
+      border-color: black;
+      text-align: center;
+      padding:5px;
+      height:100px;
+      width:100px;
+}
+.container{
+      text-align: left;
+}
